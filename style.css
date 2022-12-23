@@ -65,25 +65,27 @@ main {
   font-size: 20px;
 }
 
-#portfolio{
+#Portfolio{
   background-color: #ECEFF1;
-}
-
-.portfolio-text-box {
-  width:920px;
   margin: auto;
   text-align: center;
 }
 
-.portfolio-text-top {
+.main-text-top {
   padding-top: 90px ;
-  font-size: 32px ;
-  padding-bottom: 8px ;
+  font-size: 32px;
 }
 
-.portfolio-text-bottom {
+.main-boder-bg{
+  margin: auto;
+  margin-top: 8px ;
+  height: 3px;
+  width: 70px;
+  background-color: #EC715F ;
+}
+
+.main-text-bottom {
   padding: 30px 0;
-  font-size: 16px;
 }
 
 .portfolio-image-box{
@@ -147,4 +149,139 @@ main {
   background-image: url(img/webcamp-mother.png);
   background-size: cover;
   background-position: center;
+}
+
+#Feature {
+  width: 980px;
+  margin: auto;
+  text-align: center;
+}
+
+.Feature-box{
+  width: 980px;
+  display: flex;
+  padding-bottom: 90px;
+}
+
+.Feature-icon1{
+  width: 320px;
+}
+
+i {
+  font-size: 60px;
+}
+
+.Feature-title {
+  padding:10px 0;
+}
+
+.Feature-text {
+  text-align: left;
+}
+
+.Feature-icon2{
+  width: 320px;
+  margin: 0 10px;
+}
+
+#Profile{
+  background-color: #ECEFF1 ;
+  margin: auto;
+  text-align: center;
+}
+
+.Profile-box{
+  width: 1024px;
+  margin:auto;
+  display: flex;
+  padding-bottom: 90px;
+}
+
+.Profile-image-box{
+  width:50%;
+}
+
+.Profile-image {
+  width: 250px;
+  height: 250px;
+  border-radius:50%;
+  background-image: url(img/my-icon.jpg);
+  margin:auto;
+}
+
+.Profile-title{
+  text-align: left;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.Profile-name{
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.Profile-skills{
+  text-align: left;
+}
+
+#Contact{
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+.Contact-box{
+  width:800px;
+  display: flex;
+  margin: auto;
+}
+
+.Contact-mail-box{
+  width: 50%;
+  text-align: left;
+}
+
+.Contact-title{
+  font-size: 20px;
+  width: 130px;
+  margin: auto;
+}
+
+.Contact-mail{
+  margin: auto;
+  width: 130px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.Contact-tel{
+  margin: auto;
+  width: 130px;
+  padding-top: 5px;
+}
+
+.Contact-sns{
+  width: 50%;
+}
+
+.Contact-sns-title{
+  margin: auto;
+  width: 170px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.Contact-icon{
+  margin-left: 20px;
+}
+
+footer{
+  height: 60px;
+  width: 100%;
+  background-color: #EC715F;
+}
+
+.footer-text{
+  text-align: center;
+  padding-top: 20px;
+  color: white;
 }
